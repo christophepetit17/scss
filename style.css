@@ -1,0 +1,240 @@
+/* --- Polices --- */
+@font-face {
+    font-family: police_titres;
+    src: url(anicb___.ttf),
+         url(anicm___.ttf),
+         url(anirb___.ttf),
+         url(anirm___.ttf);
+}
+@font-face {
+    font-family: police_symboles;
+    src: url(tngan.ttf),
+         url(tnganb.ttf),
+         url(tnganbi.ttf),
+         url(tngani.ttf);
+}
+@font-face {
+    font-family: police_textes;
+    src : url(partybusiness.ttf);
+}
+h1, h2, h3, h4, h5, h6, table, nav a, .badge {
+    font-family: police_titres;
+}
+p {
+    font-family: police_textes;
+    font-size: 1.5em;
+}
+
+
+/* --- Header --- */
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #f46426;
+}
+
+.nav-link {
+    color: white!important;
+    border-right: 1px solid white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.nav-link:hover {
+    color: white;
+    transform: scale(1.3);
+}
+
+.btn a {
+    color: black;
+}
+.carousel-caption {
+    margin-bottom: 8%;
+}
+
+/* --- Fellows --- */
+
+.badge {
+    font-size: 1em;
+    color: grey;
+}
+.badge:hover {
+    color: #f46426;
+}
+.fellows {
+    padding-bottom: 1.5em;
+}
+#fellows span {
+    font-family: police_symboles;
+    color: #f46426;
+    font-size: 1.2em;
+}
+
+/* --- Cards --- */
+
+.miniportrait img {
+    opacity : 0.6;
+    border : 3px solid black;
+}
+.miniportrait2 img {
+    opacity : 0.6;
+    border : 3px solid black;
+}
+.miniportrait:hover img {
+    opacity: 1;
+}
+#cards .container {
+    padding-bottom: 25px;
+    }
+#fellows .container, #cards .container {
+    background-image: url("bg_light.png");
+}
+.card-img-overlay {
+    color: black;
+}
+.card-img-overlay h3 {
+    color: white;
+}
+.miniportrait, .miniportrait2 {
+    background-color: black;
+    color: white;
+}
+.card-text1 {
+    background-color: azure;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+.card-text1:hover {
+    opacity: 0;
+}
+.card-text2 {
+    color: #f46426;
+    font-size: 2.5em;
+    }
+.card-text1 span {
+    color: #f46426;
+}
+.gimli {
+    text-decoration: line-through;
+    text-decoration-color: #f46426;
+    
+}
+.gimli1 {
+    color: #f46426;
+}
+/* --- Reward --- */
+
+#reward .container {
+    border-top: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url("bg_dark.png");
+    color: white;
+}
+#reward .btn {
+    margin-left: 50%;
+    color: #f46426;
+    background-color: white;
+    font-family: police_textes;
+}
+#reward span {
+    color: #f46426;
+    font-family: police_symboles;
+    font-size: 0.5em;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* --- Best Hunters --- */
+
+#best-hunters .container {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url("bg_light.png");
+}
+#best-hunters h4 {
+    padding-bottom: 20px;
+}
+#best-hunters .name1 {
+    color: #f46426;
+    font-family: police_textes;
+    font-size: 3em;
+}
+#best-hunters span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: police_symboles;
+    color: #f46426;
+}
+
+/* --- The Ring --- */
+
+#ring img {
+    border-radius: 100%;    
+}
+#ring .container {
+   background-image: url("bg_dark.png");
+}
+#ring h3 {
+    color: white;
+}
+#ring span {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: police_symboles;
+    color: #f46426;
+}
+#ring .card-header {
+    background-color: #f46426;
+}
+#ring .card-body {
+    border-bottom: 5px solid #f46426;
+    background-color: #D3D3D3;
+}
+#ring .gollum_texte {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+/* --- Join Mordor Army ---*/
+
+#army .container {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-image: url("bg_light.png");
+}
+#army .army_img {
+    padding-top: 50px;
+}
+
+/* --- Contact Us --- */
+
+#contact .container {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    background-image: url("bg_dark.png");
+}
+#contact h2 {
+    color: white;
+}
+#contact form {
+    font-family: police_textes;
+}
+
+/* --- Footer --- */
+
+footer .container {
+    background-color: #f46426;
+    padding : 10px;
+}
+footer a {
+    color: white;
+    font-family: police_titres;
+    font-size: 1em;
+}
+footer li {
+    list-style-type: none;
+}
+
